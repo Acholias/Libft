@@ -25,11 +25,9 @@ static char	check_set(char s, char const *set)
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	size_t	index;
 	size_t	beg;
 	size_t	end;
 
-	index = 0;
 	if (!s1 || !set)
 		return (NULL);
 	beg = 0;
